@@ -142,10 +142,10 @@ rss:
       url: "https://finance.yahoo.com/news/rssindex"
 
     # 自定义源示例
-    # - id: "custom-feed"
-    #   name: "自定义源"
-    #   url: "https://example.com/feed.xml"
-    #   enabled: false
+    - id: "custom-feed"
+      name: "实时榜单资讯"
+      url: "https://news.aolifu.org/c/hottest"
+      enabled: false
     #   max_age_days: 0               # 示例：禁用过滤，推送所有文章
 
 
