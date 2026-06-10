@@ -395,7 +395,7 @@ presets:
 #     其余时间走默认配置（静默采集）
 
 custom:
-  name: "自定义"
+  name: "早间新闻"
   description: "完全自由定义时间段、日计划和周映射。"
 
   # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -515,9 +515,11 @@ custom:
   # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   day_plans:
     workday:                       # 工作日计划
-      periods: ["deep_quiet", "weekday_morning", "evening_summary"]
+      # periods: ["deep_quiet", "weekday_morning", "evening_summary"]
+      periods: ["weekday_morning"]
     weekend:                       # 周末计划（用 weekend_morning 替换 weekday_morning）
-      periods: ["deep_quiet", "weekend_morning", "evening_summary"]
+      # periods: ["deep_quiet", "weekend_morning", "evening_summary"]
+      periods: []
 
 
   # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
